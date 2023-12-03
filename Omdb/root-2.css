@@ -1,0 +1,27 @@
+#root-2{
+    background-color: black;
+    height: 100vh;
+}
+#root-2>div{
+    display: flex;
+    justify-content: space-around;
+}
+#root-2>div>div:nth-child(1){
+    width: 30%;
+}
+#root-2>div>div:nth-child(1)>img{
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(255, 254, 254, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+#root-2>div>div:nth-child(2){
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#root-2>div>div>p{
+    font: 18px 'Poppins';
+    color: #ffff;
+}

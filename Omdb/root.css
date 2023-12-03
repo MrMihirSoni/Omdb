@@ -1,0 +1,25 @@
+#root{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    padding: 2rem;
+    margin:auto;
+    background-color: black;
+}
+#root>div{
+    background-color: #482929;
+    border-radius: 30px;
+    transition: .2s;
+}
+#root>div:hover{
+    margin: -20px;
+}
+#root>div>img{
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+}
+#root>div>p{
+    font: 24px 'Poppins';
+    color: rgb(226, 189, 189);
+    text-align: center;
+}
